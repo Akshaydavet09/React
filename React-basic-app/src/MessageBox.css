@@ -1,0 +1,9 @@
+.MessageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1.85rem;
+}

@@ -62,10 +62,9 @@ body {
   border-inline: 1px solid var(--border);
   min-height: 100svh;
   display: flex;
+  justify-content: center;
   flex-direction: column;
   box-sizing: border-box;
-  /* align-items: center; */
-  justify-content: center;
 }
 
 h1,
