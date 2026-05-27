@@ -23,8 +23,8 @@ function Form() {
     console.log(comments);
     setValues({
       username: "",
-      remark: "",
-      rating: ""
+      remark: "", 
+      rating: ""  
     })
   }
 
@@ -50,4 +50,4 @@ function Form() {
     </form>
   </>
 }
-export default Form;
+export default Form;   
