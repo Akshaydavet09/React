@@ -109,32 +109,39 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 } */
-#root{
+/* #root{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
   flex-direction: column;
-}
-.WeatherApp{
+} */
+ .WeatherApp{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
+  /* align-items: center;  */
+  /* gap: 2rem; */
+  /* width: 100vw; */
+  height: 100vh;
+} 
+.SearchBox{
+  display:flex;
+  flex-direction: column;
   align-items: center;
-  gap: 2rem;
 }
 .btn{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
-.Search{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-
+.Card-weather{
+  width: 445px;
 }
-.btn{
-  margin-top: 0.5rem;
+.Weather-card{
+  margin-top: 1.75rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
