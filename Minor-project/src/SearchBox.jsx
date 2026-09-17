@@ -14,4 +14,4 @@ function SearchBox({handleChange, handleSubmit}){
         </form>
     </div>
 }
-export default SearchBox;
+export default SearchBox; 
